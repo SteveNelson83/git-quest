@@ -3,7 +3,6 @@ const Character = require('./character');
 
 function Enemy(config) {
   Character.call(this, config);
-  this.damage = config.damage;
 }
 
 Enemy.prototype = Object.create(Character.prototype);
